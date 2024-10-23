@@ -36,6 +36,8 @@ body{
   margin: 0 auto;
 }
 
+/* Header */
+
 .headertot{  
   width: 100%;
 }
@@ -44,7 +46,8 @@ body{
   position: fixed;
   background-color: white; 
   height: 60px;
-  width: 100%;  
+  width: 100%;
+  z-index: 999;  
 }
 
 .headright{
@@ -66,10 +69,10 @@ body{
   padding-right: 10px;
 }
 
-.headleft a{
+.headleft .inizia{
   text-decoration: none;
-  background-color: blue;
-  padding: 8px;
+  background-color: rgb(0, 97, 255);
+  padding: 8px 10px;  
   color: white;
 }
 
@@ -77,6 +80,11 @@ body{
   justify-content: flex-start;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.headnav a{
+  text-decoration: none;
+  color: black;
 }
 
 .headnav:hover .but{  
@@ -117,20 +125,29 @@ body{
   margin-bottom: 30px;   
 } 
 
-.text{
+.text{   
   width: 30%;  
   flex-direction: column;
+  flex-wrap: nowrap;   
 }
 
 .text .inizbut{
-  border: 1px solid;
-  background-color: blue;
+  border: 1px solid rgb(0, 97, 255);
+  background-color: rgb(0, 97, 255);
   margin-top: 40px;
   margin-bottom: 40px;
+  width: 50%;
+  text-align: center;
+  padding: 5px 8px;
+}
+
+.inizbut a{
+  color: white;
+  text-decoration: none;
 }
 
 .text .arrow{
-  bottom: 0;
+  bottom: 100;
   font-size: 3rem;
   color: black;
   text-decoration: none;
@@ -142,4 +159,53 @@ body{
 
 .colimg img{
   width: 100%;
+}
+
+/* /Header */
+
+.piani{
+  margin-top: 100px;
+}
+
+
+.titolocard ul li{
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titolocard h2{
+  font-size: 2rem;
+}
+
+
+.gallery{ 
+  flex-wrap: wrap;   
+}
+
+.titolocard{
+  width: 100%;
+}
+
+.gallery .cards{
+  width: 33%;
+  margin-left: 20px;
+  flex-direction: column;
+  padding: 20px; 
+}
+
+.gallery .cards *{
+  padding-top: 30px;
+
+}
+
+.gallery .cards ul{
+  list-style: none;
+}
+
+.titolpunti{
+  border-top: 1px solid lightgray;
+  width: 40%;
+  margin-top: 20px;  
 }
