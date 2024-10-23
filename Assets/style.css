@@ -181,7 +181,8 @@ body{
 
 
 .gallery{ 
-  flex-wrap: wrap;   
+  flex-wrap: wrap; 
+   
 }
 
 .titolocard{
@@ -197,7 +198,6 @@ body{
 
 .gallery .cards *{
   padding-top: 30px;
-
 }
 
 .gallery .cards ul{
