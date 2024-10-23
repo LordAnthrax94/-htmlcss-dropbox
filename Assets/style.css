@@ -181,31 +181,48 @@ body{
 
 
 .gallery{ 
-  flex-wrap: wrap; 
-   
+  flex-wrap: wrap;    
 }
 
 .titolocard{
   width: 100%;
 }
 
-.gallery .cards{
+.gallery .cards{  
   width: 33%;
-  margin-left: 20px;
-  flex-direction: column;
+  /* margin-left: 20px; */
+  flex-direction: column;   
+  border: 1px solid lightgray;
   padding: 20px; 
+  margin: 20px; 
 }
 
-.gallery .cards *{
-  padding-top: 30px;
+.gallery .cards .singolo{ 
+ border-bottom: 1px solid lightgray; 
+ text-align: center; 
+ padding: 8px;
+ margin-bottom: 30px;
 }
+
+.gallery .cards::after .singolo{
+  padding: 20px;
+} 
 
 .gallery .cards ul{
   list-style: none;
 }
 
-.titolpunti{
+.cards .titolpunti{
   border-top: 1px solid lightgray;
   width: 40%;
-  margin-top: 20px;  
+  margin-top: 20px;
+  padding-top: 30px;  
+}
+
+.lastcard{
+  justify-content: flex-end;
+}
+
+.trybutt{
+  border:1px solid rgb(0, 97, 255);
 }
