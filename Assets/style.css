@@ -189,12 +189,10 @@ body{
 }
 
 .gallery .cards{  
-  width: 33%;
-  /* margin-left: 20px; */
+  width: 33%;  
   flex-direction: column;   
   border: 1px solid lightgray;
-  padding: 20px; 
-  margin: 20px; 
+  margin: 20px;   
 }
 
 .gallery .cards .singolo{ 
@@ -204,25 +202,51 @@ body{
  margin-bottom: 30px;
 }
 
-.gallery .cards::after .singolo{
-  padding: 20px;
-} 
+
+
+.colbot *{
+  padding: 10px;
+  margin: 10px;
+}
+
+.coltop *{
+  padding: 10px;
+  margin: 10px;
+}
+
+.colcent{  
+  flex-direction: column;
+  margin: 10px;
+  align-items: flex-start;
+
+}
 
 .gallery .cards ul{
   list-style: none;
 }
 
-.cards .titolpunti{
-  border-top: 1px solid lightgray;
-  width: 40%;
-  margin-top: 20px;
-  padding-top: 30px;  
+.divisore{
+  border-bottom: 1px solid lightgray;
+  width: 20%;
+  margin-left: 20px;  
 }
 
-.lastcard{
-  justify-content: flex-end;
+.trybutt{    
+  background-color: rgb(0, 97, 255);
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 8px; 
+  width: 65%;   
 }
 
-.trybutt{
-  border:1px solid rgb(0, 97, 255);
+.buybutt{
+  align-self: flex-start;
+  margin: 10px;
+  padding: 10px;   
 }
+
+.buybutt a{
+  color: rgb(0, 97, 255);
+}
+
