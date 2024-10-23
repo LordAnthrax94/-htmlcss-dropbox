@@ -1,0 +1,138 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dflex{
+  display: flex;
+}
+
+.debug{
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.rel{
+  position: relative;
+}
+
+.absol{
+  position: absolute;
+}
+
+.containerhead{
+  padding: 0 20px;
+  width: 1600;
+  margin: 0 auto;
+}
+
+.container{
+  padding: 0 20px;
+  width: 1100;
+  margin: 0 auto;
+}
+
+.headertot{  
+  width: 100%;
+}
+
+.headertop{
+  position: fixed;
+  background-color: white; 
+  height: 60px;
+  width: 100%;  
+}
+
+.headright{
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.headleft{
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.headleft a{
+  text-decoration: none;
+  background-color: blue;
+  padding: 8px;
+  color: white;
+}
+
+.headnav{  
+  justify-content: flex-start;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.headnav:hover .but{
+
+  
+  
+}
+
+.logo{
+  margin-right: 20px;
+}
+
+.headnav ul li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.inizia{
+  margin-left: 20px;
+}
+
+.jumbotron{
+  background-color: rgb(180, 208, 231);
+  padding-top: 60px;
+  flex-wrap: wrap;
+  height: 800px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;  
+}
+
+.contjumb{
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+}
+
+.titolo{
+  font-size: 2.3rem; 
+  margin-top: 25px;
+  margin-bottom: 30px;   
+} 
+
+.text{
+  width: 30%;
+  margin-top: 60px;
+  flex-direction: column;
+}
+
+.text .arrow{
+  bottom: 0;
+}
+
+.colimg{
+  width: 70%;
+}
+
+.colimg img{
+  width: 100%;
+}
