@@ -26,13 +26,13 @@ body{
 
 .containerhead{
   padding: 0 20px;
-  width: 1600;
+  max-width: 1600;
   margin: 0 auto;
 }
 
 .container{
   padding: 0 20px;
-  width: 1100;
+  max-width: 1100;
   margin: 0 auto;
 }
 
@@ -224,8 +224,7 @@ body{
   margin-bottom: 20px;
 }
 
-.divisore{
-  border-bottom: 1px solid lightgray;
+.divisore{  
   width: 20%;
   margin-left: 20px;  
 }
@@ -291,8 +290,7 @@ body{
   color: rgb(0, 97, 255);
 }
 
-.titolpunti{
-  border-top: 1px solid lightgray;  
+.titolpunti{    
   font-weight: bold;
   padding-top: 20px;
 }
@@ -417,7 +415,12 @@ body{
 /* Footer */
 
 footer{
+  margin-top: 100px;
   background-color: black;  
+}
+
+.footot{
+  position: relative;
 }
 
 .colfoot{ 
@@ -450,7 +453,16 @@ footer{
 }
 
 .separatore{
+  position: absolute;
   color: grey;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  bottom: 200; 
+  width: 7%; 
 }
+
+.lang *{
+  margin-right: 3px;
+}
+
+
+  
+
