@@ -187,9 +187,9 @@ html{
   margin-top: 100px;
 }
 
-.titolocard ul li{
-  display: inline-block;
-  text-decoration: none;
+.selbutt{  
+  flex-wrap: wrap;
+  align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
