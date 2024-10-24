@@ -167,7 +167,6 @@ body{
   margin-top: 100px;
 }
 
-
 .titolocard ul li{
   display: inline-block;
   text-decoration: none;
@@ -196,7 +195,18 @@ body{
 }
 
 .contenuto{
-  padding: 20px;
+  padding: 20px;  
+}
+
+.cards .contenuto .prezzo{
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.periodo{
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .gallery .cards .singolo{ 
@@ -230,6 +240,47 @@ body{
   margin-bottom: 20px;    
 }
 
+.list-icon::before{
+  position: absolute;
+  left: -15px;
+  font-family: "FontAwesome";
+  font-weight: 900;
+  margin-right: 5px;  
+}
+
+.list-icon{
+  position: relative;
+}
+
+.check{
+  margin-left: 15px;
+}
+
+.symbol{
+  margin-left: 15px;
+}
+
+.check li::before{  
+  content: "\f00c";
+  color: blue;
+}
+
+.symbol .user::before{
+  content: "\f007";
+}
+
+.symbol .folder::before{
+  content: "\f07b";
+}
+
+.symbol .share::before{
+  content: "\f1e0";
+}
+
+.symbol .multi-user::before{
+  content: "\f0c0";
+}
+
 .buybutt{
   margin-bottom: 30px;
 }
@@ -239,8 +290,7 @@ body{
 }
 
 .titolpunti{
-  border-top: 1px solid lightgray;
-  width: 30%;
+  border-top: 1px solid lightgray;  
   font-weight: bold;
   padding-top: 20px;
 }
