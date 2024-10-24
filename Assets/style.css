@@ -332,6 +332,7 @@ body{
   padding: 8px;  
 }
 
+/* Contatti */
 
 .Contatti{
   margin-top: 100px;
@@ -369,5 +370,23 @@ body{
   color: black; 
 }
 
+/* Istruzioni */
 
+.selop{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.carta{
+  width: 33%;
+}
+
+.carta .pic img{
+  width: 100%;
+}
+
+.text{
+  text-align: center;
+  justify-content: center;
+}
 
