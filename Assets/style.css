@@ -416,13 +416,14 @@ html{
 
 .textistr{
   width: 100%;
-  text-align: left;  
+  text-align: left; 
+  flex-direction: column; 
 }
 
-.text h4{
+.textistr h4{
   font-size: 1.5rem;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .lastbuisness h1{
