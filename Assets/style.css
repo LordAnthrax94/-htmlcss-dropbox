@@ -181,7 +181,8 @@ body{
 
 
 .gallery{ 
-  flex-wrap: wrap;    
+  flex-wrap: wrap;
+  justify-content: space-between;    
 }
 
 .titolocard{
@@ -191,8 +192,11 @@ body{
 .gallery .cards{  
   width: 33%;  
   flex-direction: column;   
-  border: 1px solid lightgray;
-  margin: 20px;   
+  border: 1px solid lightgray;        
+}
+
+.contenuto{
+  padding: 20px;
 }
 
 .gallery .cards .singolo{ 
@@ -202,25 +206,10 @@ body{
  margin-bottom: 30px;
 }
 
-.colbot *{
-  padding: 10px;
-  margin: 10px;
-}
-
-.coltop *{
-  padding: 10px;
-  margin: 10px;
-}
-
-.colcent{  
-  flex-direction: column;
-  margin: 10px;
-  align-items: flex-start;
-
-}
-
-.gallery .cards ul{
+.gallery .cards ul li{
   list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .divisore{
@@ -230,25 +219,105 @@ body{
 }
 
 .trybutt{    
+  display: inline-block;
   background-color: rgb(0, 97, 255);
   text-decoration: none;
-  text-align: center;
+  text-align: center; 
   color: white;
   padding: 8px; 
-  width: 65%;   
+  width: 65%;
+  margin-top: 40px;
+  margin-bottom: 20px;    
 }
 
 .buybutt{
-  align-self: flex-start;
-  margin: 10px;
-  padding: 10px;   
+  margin-bottom: 30px;
 }
 
 .buybutt a{
   color: rgb(0, 97, 255);
 }
 
+.titolpunti{
+  border-top: 1px solid lightgray;
+  width: 30%;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
 .gallery .lastcard{
   width: 100%;
+  border: 1px solid lightgray;
+  margin-top: 50px;
 }
+
+
+.gallery .lastcard .singolo{
+ border-bottom: 1px solid lightgray; 
+ text-align: center; 
+ padding: 8px;
+ margin-bottom: 30px;
+}
+
+.cardint{justify-content: space-between;
+  padding: 30px;
+}
+
+.cardint p{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.cardint span{
+  margin-top: 20px;
+}
+
+.cardint a{
+  display: inline-block;
+  background-color: rgb(0, 97, 255);
+  text-decoration: none;
+  text-align: center; 
+  color: white;
+  padding: 8px;  
+}
+
+
+.Contatti{
+  margin-top: 100px;
+}
+
+.colsin img{
+  width: 100%;
+}
+
+.colsin{
+  width: 60%;  
+}
+
+.coldes{
+ width: 40%;
+ text-align: start;
+ flex-direction: column; 
+ align-self: center; 
+ padding: 30px;
+}
+
+.coldes h3{
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.coldes span{
+  margin-top: 60px;
+}
+
+.coldes a{  
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid black;
+  color: black; 
+}
+
+
 
