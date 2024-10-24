@@ -87,9 +87,6 @@ body{
   color: black;
 }
 
-.headnav:hover .but{  
-}
-
 .headnav ul li{
   display: inline-block;
   list-style: none;
@@ -100,6 +97,25 @@ body{
 
 .inizia{
   margin-left: 20px;
+}
+
+.but{
+  position: relative;
+}
+
+.bottbar{
+  background-color: white;
+  position: absolute;
+  color: white;
+  border-bottom: 1px solid black;
+  display: none;
+  width: 100%;
+}
+
+.but:hover .bottbar{
+  color: white;
+  display: block;  
+  
 }
 
 .jumbotron{
@@ -438,7 +454,7 @@ footer{
 
 .listfoot{  
   color: white;
-  width: 15%; 
+  width: 20%; 
   padding: 40px;     
 }
 
