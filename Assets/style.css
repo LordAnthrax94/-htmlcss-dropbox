@@ -113,10 +113,11 @@ body{
 }
 
 .contjumb{
+  height: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; 
-  margin: 0 auto;
+  align-items: center;
+  
 }
 
 .titolo{
@@ -147,20 +148,18 @@ body{
 }
 
 .text .arrow{
-  bottom: -200;
+  bottom: 0;
   font-size: 3rem;
   color: black;
   text-decoration: none;
 }
 
-.colimg{
-  position: relative;
+.colimg{  
   width: 70%;  
 }
 
-.colimg img{
-  position: absolute;
-  width: 100%;
+.colimg img{  
+  width: 130%;
 }
 
 /* /Header */
